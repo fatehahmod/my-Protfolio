@@ -8,6 +8,8 @@ import Contact from './Pages/Contact/Contact';
 import Project from './Pages/Project/Project';
 import { BrowserRouter, Switch,Route } from 'react-router-dom';
 import Home from './Pages/Home/Home';
+import Blog from './Pages/Blog/Blog';
+import SingleDetails from './Pages/SingleDetails/SingleDetails';
 
 
 
@@ -32,6 +34,12 @@ function App() {
            </Route>
            <Route  path="/contact">
            <Contact></Contact>
+           </Route>
+           <Route  path="/blog">
+           <Blog></Blog>
+           </Route>
+           <Route  path="/singleDetails/:id">
+           <SingleDetails></SingleDetails>
            </Route>
         </Switch>
         </BrowserRouter>

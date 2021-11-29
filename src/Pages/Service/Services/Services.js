@@ -4,7 +4,7 @@ const Services = ({services}) => {
     const {name,de}=services
     return (
         <div>
-            <div class="card" >
+            <div className="card mb-3"  >
   
   <div class="card-body">
     <h5 class="card-title">{name}</h5>

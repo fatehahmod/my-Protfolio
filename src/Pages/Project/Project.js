@@ -10,12 +10,15 @@ const Project = () => {
         .then(data => setProjects(data))
     },[])
     return (
-        <div className="service mt-5 container bg-dark ">
+        <div className="bg-dark mt-5  container mx-auto">
+            <h2 className="text-light mt-3">My Projects</h2>
+            <div className="service mt-5  ">
             {
                projects.map(projectt => <Projects
                projectt={projectt}></Projects>
                 )
            }
+        </div>
         </div>
     );
 };

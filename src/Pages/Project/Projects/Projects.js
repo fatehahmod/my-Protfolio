@@ -5,7 +5,7 @@ const Projects = ({projectt}) => {
     const {img,name,b1,b2,b3,link}=projectt
     return (
         <div>
-            <div className="card mb-3 mt-3" style={{width: "18rem"}}>
+            <div className="card mb-3 mt-3 mx-auto" style={{width: "18rem"}}>
   <img style={{height:"200px"}} src={img} class="card-img-top" alt="..."/>
   <div class="card-body">
     <h5 class="card-title">{name}</h5>

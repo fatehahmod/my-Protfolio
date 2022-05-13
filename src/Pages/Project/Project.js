@@ -10,9 +10,9 @@ const Project = () => {
         .then(data => setProjects(data))
     },[])
     return (
-        <div className="bg-dark mt-5  container mx-auto">
-            <h2 className="text-light mt-3">My Projects</h2>
-            <div className="service mt-5  ">
+        <div className="mt-5 container ">
+            <h2 className="mb-5 ">My Projects</h2>
+            <div className="service ">
             {
                projects.map(projectt => <Projects
                projectt={projectt}></Projects>

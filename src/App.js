@@ -10,6 +10,8 @@ import { BrowserRouter, Switch,Route } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import Blog from './Pages/Blog/Blog';
 import SingleDetails from './Pages/SingleDetails/SingleDetails';
+import Footer from './Footer/Footer';
+import AboutMe from './Pages/AboutMe/AboutMe';
 
 
 
@@ -25,6 +27,9 @@ function App() {
            </Route>
            <Route  path="/home">
           <Home></Home>
+           </Route>
+           <Route  path="/aboutme">
+          <AboutMe></AboutMe>
            </Route>
            <Route  path="/project">
            <Project></Project>
@@ -42,6 +47,7 @@ function App() {
            <SingleDetails></SingleDetails>
            </Route>
         </Switch>
+        <Footer/>
         </BrowserRouter>
       {/* <Banner></Banner>
       <About></About>

@@ -1,27 +1,4 @@
-.banner {
-    background-image: url("../../imges/bg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 350px;
 
-}
-
-*,
-*:after,
-*:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.bb {
-    font-family: arial;
-    font-size: 16px;
-    margin: 0;
-    background: #fff;
-    color: #000;
-}
 
 .snow_wrap {
     height: 100vh;
@@ -77,19 +54,6 @@
         transform: translateY(650px );
     }
 }
-
-
-
-
-
-
-
-/* .card:hover .pro-pic{
-	transform:translate(-50%,-50%);
-	width: 150px;
-	height: 150px;
-	border-radius: 50%
-} */
 
 .card:hover .description{
 	transform:translateY(0%);

@@ -1,0 +1,10 @@
+.icon-box{
+    height: 150px !important;
+    width: 240px !important;
+}
+.logo{
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 0;
+    font-size: 70px;
+}

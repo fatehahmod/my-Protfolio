@@ -1,42 +1,23 @@
 
-
-*,*:after,*:before{
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
-}
-.bd{
-	font-family: arial;
-	font-size: 16px;
-	margin: 0;
-	background: #009090;
-	color: #fff;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	min-height: 100vh;
+.gradient{
+	background-image: linear-gradient(to right, rgb(65, 95, 228) ,
+	 rgb(158, 213, 233));
 }
 
 .text-box{
-	font-size: 40px;
-	font-weight: 700;
+	font-size: 30px;
+	font-weight: 600;
 	text-align: center;
-	width:100%;
+	width:270px;
 }
 .fixed-text{
 	display: inline-block;
 }
 .animate-text{
 	display: inline-block;
-	vertical-align: top;
-	height: 70px;
+	/* vertical-align: top; */
+	height: 35px;
 	overflow: hidden;
-}
-.animate-text div{
-	animation:9s wordChange;
-	animation-iteration-count:initial;
-	animation-timing-function: steps(1);
 }
 .animate-text span{
 	position: relative;
@@ -49,14 +30,13 @@
 	content: "";
 	position: absolute;
 	left: 0;
-	border-left: 2px solid #a6abda;
-	height: 70px;
-	animation:2s textType;
+	height: 35px;
+	animation:6s textType;
 	animation-iteration-count: infinite;
-	animation-timing-function: steps(10);
+	animation-timing-function: steps(20);
 	animation-fill-mode: backwards;
 	right: 2px;
-	background-color: #dae7e7;
+	background-color: whitesmoke;
 	overflow: hidden;
 }
 

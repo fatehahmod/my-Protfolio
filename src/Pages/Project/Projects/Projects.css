@@ -1,6 +1,6 @@
-* {
+/* * {
     box-sizing: border-box;
-  }
+  } */
   
   .wrapper {
     display: flex;
@@ -70,24 +70,7 @@
     /* font-size: 15px; */
     margin-top: 8px;
   }
-  /* .cardd .info .but {
-    outline: none;
-    border: none;
-    border-radius: 3px;
-    background: white;
-    color: black;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.4s ease;
-  } */
-  /* .cardd .info .but:hover {
-    background: rgb(45, 46, 48);
-    color: white;
-  } */
-
-  /* buttom style */
-
-  /*  */
+  
    
    #bdy {
     position: relative;
@@ -112,45 +95,14 @@
     perspective: 500px;
     transform-style: preserve-3d;
   }
-  .but:before, .but:after {
-    --z: 0px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    content: "";
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    mix-blend-mode: inherit;
-    border-radius: inherit;
-    transform-style: preserve-3d;
-    transform: translate3d(calc(var(--z) * 0px), calc(var(--z) * 0px), calc(var(--z) * 0px));
-  }
+  
   .but span {
     mix-blend-mode: none;
     display: block;
   }
-  /* .but:after {
-    background-color: #5D00FF;
-  }
-  .but:before {
-    background-color: #FF1731;
-  }
-  .but:hover {
-    background-color: #FFF65B;
-    transition: background 0.3s 0.1s;
-  } */
-  .but:hover:before {
-    --z: 0.04;
-    -webkit-animation: translateWobble 2.2s ease forwards;
-            animation: translateWobble 2.2s ease forwards;
-  }
-  .but:hover:after {
-    --z: -0.06;
-    -webkit-animation: translateWobble 2.2s ease forwards;
-            animation: translateWobble 2.2s ease forwards;
-  }
+ 
+ 
+  
   
   @-webkit-keyframes rotateAngle {
     0% {

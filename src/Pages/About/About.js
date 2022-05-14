@@ -14,24 +14,25 @@ const About = () => {
         })
     }, []);
     return (
-
         <div className=''>
-            <div class="">
+            {/* <div class="">
                 <div class="snow"></div>
-            </div>
+                
+            </div> */}
+            
 
             <div style={{ marginTop: "-370px" }} className="bg-light container shadow-lg rounded ">
                 <div className="row mt-5  mb-5">
                     <div className="col-md-6">
-                        <img className="mb-3 mt-3 rounded shadow-lg" width="470px" height="400px" src="https://i.ibb.co/yQN4gqS/photostudio-8-designify-1.png" alt="" data-aos="fade-up" />
+                        <img style={{borderRadius: "300px"}} className=" mb-3  shadow-lg" width="100%" height="100%" src="https://i.ibb.co/yQN4gqS/photostudio-8-designify-1.png" alt="" data-aos="fade-up" />
                     </div>
-                    <div  class="text-start col-md-4 mt-5  pt-3 rounded mx-auto shadow-sm">
+                    <div class="text-start col-md-4 mt-5  pt-3 rounded mx-auto shadow-sm">
                         <h2 className=''>Hello,I am a</h2>
                         <h1>FATEH AHMOD</h1>
                         <div class="text-box animate-text">
                             <span>Junior web Developer</span>
                         </div>
-                        <div>
+                        <div className='mb-5'>
 
                             <br />
                             <i class="fa fa-phone me-3"></i>

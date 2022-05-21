@@ -1,5 +1,102 @@
 
+.resumeBtn{
+	background-image: linear-gradient(to right, rgb(65, 95, 228),
+	rgb(158, 213, 233));
+	border: 0px;
+	padding: 5px;
+	color: #ffffff;
+	font-size: 20px;
+	border-radius: 10px;
+}
+.about-icons a{
 
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	background-color:  #dce7ee;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 30px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+.text-box {
+	font-size: 25px;
+	font-weight: 700;
+	text-align: center;
+	width: 180px;
+	border-radius: 30px;
+}
+
+.fixed-text {
+	display: inline-block;
+}
+
+.animate-text {
+	display: inline-block;
+	vertical-align: top;
+	height: 35px;
+	overflow: hidden;
+	
+}
+
+.animate-text span {
+	position: relative;
+	color: #e11111;
+	display: block;
+	text-align: left;
+
+}
+
+.animate-text span:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	height: 35px;
+	animation: 6s textType;
+	animation-iteration-count: infinite;
+	animation-timing-function: steps(20);
+	animation-fill-mode: backwards;
+	right: 2px;
+	background-color: #f7f1f1;
+	overflow: hidden;
+}
+
+@keyframes textType {
+	0% {
+		left: 0;
+	}
+
+	50% {
+		left: 100%;
+	}
+
+	100% {
+		left: 0;
+	}
+}
+
+@keyframes wordChange {
+	0% {
+		margin-top: 0;
+	}
+
+	33.333% {
+		margin-top: -70px;
+	}
+
+	66.666% {
+		margin-top: -140px;
+	}
+
+	100% {
+		margin-top: 0;
+	}
+}
 
 /* .snow_wrap {
     height: 100vh;

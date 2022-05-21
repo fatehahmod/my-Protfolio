@@ -36,14 +36,14 @@ const Contact = () => {
     return (
 
         <div className='mt-5 mb-5' >
-            <h3>Contact Me </h3>
+            <h3 className='mb-5'>Contact With Me </h3>
             <Row className="mx-auto mr-3">
 
                 <Col lg={6} className="pt-5 " style={{ backgroundColor: "#F8F9FA" }}>
                     <form onSubmit={handaleEmailSubmit} >
                         <input name="name" placeholder="Enter your name..." style={inputStyle} type="text" />
                         <input name="user_email" placeholder="Enter your email..." style={inputStyle} type="email" />
-                        <textarea placeholder="Your message..." required name="message" rows="5" cols="48" />
+                        <textarea placeholder="Your message..." required name="message" rows="5" cols="47" />
                         <br />
                         <div className='pb-5 pt-3 '>
                             <input type="submit" className='me-5' value=" Send" style={buttonStyle}

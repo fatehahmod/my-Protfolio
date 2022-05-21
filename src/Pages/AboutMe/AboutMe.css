@@ -1,0 +1,62 @@
+.welcome-text{
+    color: darkgreen;
+
+}
+.choose{
+    color: rgb(139, 0, 49);
+}
+.secondd {
+   border-color: #daf0ec;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(6, 1, 1, 0.754);
+    background-color: azure;
+  }
+  
+.second {
+    
+    border-radius: 0px;
+    border-color: #daf0ec;
+    color: rgb(228, 82, 82);
+    background-image: linear-gradient(to right, rgb(183, 225, 238),
+    rgb(158, 213, 233),rgb(166, 237, 246),
+    rgb(158, 213, 233),rgb(194, 241, 244),
+    rgb(158, 213, 233),rgb(179, 228, 246),
+    rgb(158, 213, 233),rgb(186, 231, 245),
+    rgb(158, 213, 233),rgb(191, 244, 245),
+    rgb(158, 213, 233),rgb(164, 228, 242),
+    rgb(158, 213, 233),rgb(174, 225, 237),
+    rgb(158, 213, 233));
+    background-position: 0 0;
+    background-size: 100%;
+    transition: background 300ms ease-in-out;
+  }
+  .second:hover {
+    background-position: 100px;
+  }
+  .btnn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent; 
+    border-radius: 0.3em;
+    color: #090908;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 0.4;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+  }
+  .btnn:hover, .btnn:focus {
+    color: rgb(243, 68, 68);
+    outline: 0;
+  }
+  

@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-// import img from '../../imges/my-img.jpg'
 import './About.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 
 
 const About = () => {
@@ -19,18 +19,16 @@ const About = () => {
                 <div class="snow"></div>
                 
             </div> */}
-            
+
 
             <div style={{ marginTop: "-370px" }} className="bg-light container shadow-lg rounded ">
                 <div className="row mt-5  mb-5">
-                    <div className="col-md-6">
-                        <img style={{borderRadius: "300px"}} className=" mb-3  shadow-lg" width="100%" height="100%" src="https://i.ibb.co/yQN4gqS/photostudio-8-designify-1.png" alt="" data-aos="fade-up" />
-                    </div>
-                    <div class="text-start col-md-4 mt-5  pt-3 rounded mx-auto shadow-sm">
-                        <h2 className=''>Hello,I am a</h2>
+
+                    <div class="text-start col-md-6 mt-5  pt-3 rounded mx-auto shadow-sm">
+                        <h2 className=''>Hello,I'm </h2>
                         <h1>FATEH AHMOD</h1>
                         <div class="text-box animate-text">
-                            <span>Junior web Developer</span>
+                            <span>Web Developer</span>
                         </div>
                         <div className='mb-5'>
 
@@ -42,9 +40,20 @@ const About = () => {
                             <a href="ahmod.fateh@gmail.com">ahmod.fateh@gmail.com</a>
                             <br />
 
+                            <div className='about-icons mt-3 mb-3'>
+                            <a className='bg-primary' href="https://web.facebook.com/profile.php?id=100004528784980"><i class="fa fa-facebook  "></i></a>                          
+
+                            <a className='bg-primary' href="https://www.linkedin.com/in/fateh-ahmod-b38812218/"><i class="fa fa-linkedin"></i></a>
+                          
+                            </div>
+                            <a className='' href="https://drive.google.com/file/d/1zzPqnKdJeYaig2F3v3AF1-COCFechXVD/view?fbclid=IwAR28IBlqlOIpaw6Aaws1dyCEEV_kzHGFBC0mK4wrta0vN5EZ3OkYm8ChDnQ"><button type="button" className="px-3 btn btn-accent resumeBtn">My Resume</button></a>
+                            
 
                         </div>
 
+                    </div>
+                    <div className="col-md-5">
+                        <img className="p-2   shadow-lg" width="450px" height="450px" src="https://i.ibb.co/FWFyPzr/118139200-1619204611573816-8889318075369350196-n.jpg" alt="" data-aos="fade-up" />
                     </div>
                 </div>
             </div>

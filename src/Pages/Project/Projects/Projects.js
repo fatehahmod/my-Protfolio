@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useHistory } from 'react-router';
+import { Link } from 'react-router-dom';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import "./Projects.css"
@@ -24,7 +25,7 @@ const Projects = ({ projectt }) => {
       <div class="wrapper">
         <div class="cardd mb-3"><img src={img} alt=""/>
           <div class="info m h ">
-            <a href={link}> <button type="button" class="but ">{name}</button></a>
+            <Link to={link}> <button type="button" class="but ">{name}</button></Link>
             <br />
           <a  href={link}><button type="button" class="but ">Live site</button></a>
           <br />

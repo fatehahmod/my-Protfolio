@@ -10,7 +10,7 @@ const Project = () => {
         .then(data => setProjects(data))
     },[])
     return (
-        <div className="mt-5 container ">
+        <div className="mt-5  secondd">
             <h2 className="mb-5 ">My Projects</h2>
             <div className="service ">
             {

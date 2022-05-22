@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './About.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { Link } from 'react-router-dom';
+
 
 
 const About = () => {
@@ -46,14 +46,14 @@ const About = () => {
                             <a className='bg-primary' href="https://www.linkedin.com/in/fateh-ahmod-b38812218/"><i class="fa fa-linkedin"></i></a>
                           
                             </div>
-                            <a className='' href="https://drive.google.com/file/d/1zzPqnKdJeYaig2F3v3AF1-COCFechXVD/view?fbclid=IwAR28IBlqlOIpaw6Aaws1dyCEEV_kzHGFBC0mK4wrta0vN5EZ3OkYm8ChDnQ"><button type="button" className="px-3 btn btn-accent resumeBtn">My Resume</button></a>
+                            <a className='' href="https://drive.google.com/file/d/1Hwz3ggzb__2z2IwHbflult_DVPhT-qRp/view?usp=sharing"><button type="button" className="px-3 btn btn-accent resumeBtn">My Resume</button></a>
                             
 
                         </div>
 
                     </div>
                     <div className="col-md-5">
-                        <img className="p-2   shadow-lg" width="450px" height="450px" src="https://i.ibb.co/FWFyPzr/118139200-1619204611573816-8889318075369350196-n.jpg" alt="" data-aos="fade-up" />
+                        <img className="my-3 rounded shadow-lg" width="450px" height="450px" src="https://i.ibb.co/FWFyPzr/118139200-1619204611573816-8889318075369350196-n.jpg" alt="" data-aos="fade-up" />
                     </div>
                 </div>
             </div>

@@ -25,13 +25,13 @@ const Projects = ({ projectt }) => {
       <div class="wrapper">
         <div class="cardd mb-3"><img src={img} alt=""/>
           <div class="info m h ">
-            <Link to={link}> <button type="button" class="but ">{name}</button></Link>
+            <p > <button type="button" class="but px-2">{name}</button></p>
             <br />
-          <a  href={link}><button type="button" class="but ">Live site</button></a>
+          <a  href={link}><button type="button" class="but px-2">Live site</button></a>
           <br />
-          <a  href={server}><button type="button" class="but ">Server site</button></a>
+          <a  href={clint}><button type="button" class="but px-2">Clint site</button></a>
           <br />
-          <a  href={clint}><button type="button" class="but ">Clint site</button></a>
+          <a  href={server}><button type="button" class="but px-2">Server site</button></a>
           <br />
           {/* <button onClick={() => handelMore(id)} type="button" class="but ms-2">See More</button> */}
             

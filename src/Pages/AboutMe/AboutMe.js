@@ -39,7 +39,7 @@ const AboutMe = () => {
 
                     </div>
                     <div>
-                        <a className='' href="https://drive.google.com/file/d/1zzPqnKdJeYaig2F3v3AF1-COCFechXVD/view?fbclid=IwAR28IBlqlOIpaw6Aaws1dyCEEV_kzHGFBC0mK4wrta0vN5EZ3OkYm8ChDnQ"><button type="button" className="btnn second">Hire me</button></a>
+                        <a className='' href="https://drive.google.com/file/d/1Hwz3ggzb__2z2IwHbflult_DVPhT-qRp/view?usp=sharing"><button type="button" className="btnn second">Hire me</button></a>
                     </div>
 
                    

@@ -82,16 +82,22 @@
   } 
   
   
-  
+  .but a{
+    text-decoration: none;
+  }
   .but {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-decoration: none;
     display: block;
     position: relative;
     cursor: pointer;
-    background: #FFFFFF;
+    background: #f9efef;
     border: none;
     border-radius: 0.4em;
-    text-transform: uppercase;
-    mix-blend-mode: color-dodge;
+    /* text-transform: uppercase; */
+    /* mix-blend-mode: color-dodge; */
+    font-weight: 700;
     perspective: 500px;
     transform-style: preserve-3d;
   }

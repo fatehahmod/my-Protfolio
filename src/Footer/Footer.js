@@ -35,7 +35,7 @@ const Footer = () => {
 						<a href="https://www.linkedin.com/in/fateh-ahmod-b38812218/"><i class="fa fa-linkedin"></i></a>
 						<a href="https://www.youtube.com/channel/UCefdVnCCFRfyaqf5bMKWFMg"><i class="fa fa-youtube"></i></a>
 					</div>
-					<a href="https://drive.google.com/file/d/1zzPqnKdJeYaig2F3v3AF1-COCFechXVD/view?fbclid=IwAR28IBlqlOIpaw6Aaws1dyCEEV_kzHGFBC0mK4wrta0vN5EZ3OkYm8ChDnQ"><button type="button" class="px-3 btn btn-accent resumeBtn  mt-3">My Resume</button></a>
+					<a href="https://drive.google.com/file/d/1Hwz3ggzb__2z2IwHbflult_DVPhT-qRp/view?usp=sharing"><button type="button" class="px-3 btn btn-accent resumeBtn  mt-3">My Resume</button></a>
 				</div>
 			</footer>
 		</div>

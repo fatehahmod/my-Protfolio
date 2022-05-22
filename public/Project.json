@@ -23,12 +23,14 @@
         "b3":"Technology used: React js, React router, React Hook Form, Firebase Authentication, Node js, Express,React Bootstrap, MongoDB, Heroku.",
         " details":"Full stack and dynamic routing application for food delivery.Easy to Order a food & seller can add a food in this website,"
     },
+    
     {
         "id":"3",
-        "name":"Lincoin Hospital",
+        "name":"JM Genarel Hospital",
         "img":"https://i.ibb.co/wsGLJcJ/screencapture-hospital-health-f97c3-web-app-2022-05-08-23-06-57.png",
         "link":"https://hospital-health-f97c3.web.app/",
-        "clint":"https://github.com/fatehahmod/Lincone-Hospital",
+        "server":"https://github.com/fatehahmod/jm-genarel-hospital-server",
+        "clint":"https://github.com/fatehahmod/jm-genarel-hospital-clint-side",
         "b1":"• Health related website,Single page application & UI responsive",
         "b2":"• User will find a Doctor with Doctor details also they will know all information about the Hospital",
         "b3":"Technology used: React js, React router, Firebase Authentication, Bootstrap",

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import { Col, Container, Row, Toast } from 'react-bootstrap';
+import { Col, Row, Toast } from 'react-bootstrap';
 import { Alert } from 'bootstrap';
 import './Contact.css'
 

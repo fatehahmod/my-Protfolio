@@ -15,6 +15,7 @@ const Contact = () => {
         height: '50px',
         borderRadius: "8px",
         border: '1px solid gainsboro',
+        
     }
     const buttonStyle = {
         border: "1px solid gainsboro",
@@ -41,9 +42,9 @@ const Contact = () => {
 
                 <Col lg={6} className="pt-5 " style={{ backgroundColor: "#F8F9FA" }}>
                     <form onSubmit={handaleEmailSubmit} >
-                        <input name="name" placeholder="Enter your name..." style={inputStyle} type="text" />
-                        <input name="user_email" placeholder="Enter your email..." style={inputStyle} type="email" />
-                        <textarea placeholder="Your message..." required name="message" rows="5" cols="47" />
+                        <input className='ps-2' name="name" placeholder="Enter your name..." style={inputStyle} type="text" />
+                        <input className='ps-2' name="user_email" placeholder="Enter your email..." style={inputStyle} type="email" />
+                        <textarea className='ps-2' placeholder="Your message..." required name="message" rows="5" cols="47" />
                         <br />
                         <div className='pb-5 pt-3 '>
                             <input type="submit" className='me-5' value=" Send" style={buttonStyle}

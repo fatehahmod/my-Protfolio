@@ -3,7 +3,8 @@ import { useParams } from 'react-router';
 
 const SingleDetails = () => {
     const {id}=useParams();
-    console.log("hello");
+    console.log(id);
+    // console.log("hello");
     const [details,setDetails]=useState([]);
     useEffect(()=>{
         fetch('/project.json')

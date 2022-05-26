@@ -27,32 +27,36 @@
 .text-box {
 	font-size: 25px;
 	font-weight: 700;
-	text-align: center;
-	width: 180px;
-	border-radius: 30px;
+	
+	
+	color: red;
+
 }
 
 .fixed-text {
 	display: inline-block;
 }
+.im{
+	padding-left:0% !important;
+}
 
-.animate-text {
+/* .animate-text {
 	display: inline-block;
 	vertical-align: top;
 	height: 35px;
 	overflow: hidden;
 	
-}
+} */
 
-.animate-text span {
+/* .animate-text span {
 	position: relative;
 	color: #e11111;
 	display: block;
 	text-align: left;
 
-}
+} */
 
-.animate-text span:after {
+/* .animate-text span:after {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -64,7 +68,7 @@
 	right: 2px;
 	background-color: #f7f1f1;
 	overflow: hidden;
-}
+} */
 
 @keyframes textType {
 	0% {

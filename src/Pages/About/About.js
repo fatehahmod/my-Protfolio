@@ -23,12 +23,13 @@ const About = () => {
 
             <div style={{ marginTop: "-370px" }} className="bg-light container shadow-lg rounded ">
                 <div className="row mt-5  mb-5">
+               
 
                     <div class="text-start col-md-6 mt-5  pt-3 rounded mx-auto shadow-sm">
                         <h2 className=''>Hello,I'm </h2>
                         <h1>FATEH AHMOD</h1>
                         <div class="text-box animate-text">
-                            <span>Web Developer</span>
+                            <span >Web Developer</span>
                         </div>
                         <div className='mb-5'>
 
@@ -46,14 +47,14 @@ const About = () => {
                             <a className='bg-primary' href="https://www.linkedin.com/in/fateh-ahmod-b38812218/"><i class="fa fa-linkedin"></i></a>
                           
                             </div>
-                            <a className='' href="https://drive.google.com/file/d/1Hwz3ggzb__2z2IwHbflult_DVPhT-qRp/view?usp=sharing"><button type="button" className="px-3 btn btn-accent resumeBtn">My Resume</button></a>
+                            <a className='' href="https://drive.google.com/file/d/1MGFb7wpVeLjbpRrCql43BYOM3A6gsx-B/view?usp=sharing"><button type="button" className="px-3 btn btn-accent resumeBtn">My Resume</button></a>
                             
 
                         </div>
 
                     </div>
                     <div className="col-md-5">
-                        <img className="my-3 rounded shadow-lg" width="450px" height="450px" src="https://i.ibb.co/FWFyPzr/118139200-1619204611573816-8889318075369350196-n.jpg" alt="" data-aos="fade-up" />
+                        <img className="my-3 im rounded shadow-lg" width="400px" height="400px" src="https://i.ibb.co/wYFK5sQ/283352014-534973445020437-8219434125784519486-n.jpg" alt="" data-aos="fade-up" />
                     </div>
                 </div>
             </div>
